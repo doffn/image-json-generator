@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect } from "react"
 import { Trash2 } from "lucide-react"
 import { PersonSubjectsForm } from "./person-subjects-form"
 import { StaticFieldsForm } from "./static-fields-form"
@@ -12,9 +13,10 @@ export function VisualBuilder({
   EXAMPLES,
   onExampleLoaded,
 }: any) {
+
   const handleClearForm = () => {
     if (isMultiSubject) {
-      // For PERSON template, clear all subject fields to empty strings
+      // For PERSON template
       const clearedData = {
         ...formData,
         subjects: formData.subjects.map((subject: any) => ({
@@ -37,17 +39,13 @@ export function VisualBuilder({
       }
       setFormData(clearedData)
     } else {
-      // For BROCHURE, STICKER, AD templates, clear all fields to empty strings
-      const clearedData = {
-        ...formData,
-      }
+      // For BROCHURE, STICKER, AD templates
+      const clearedData = { ...formData }
 
-      // Clear all top-level string fields
       Object.keys(clearedData).forEach((key) => {
         if (typeof clearedData[key] === "string") {
           clearedData[key] = ""
         } else if (Array.isArray(clearedData[key])) {
-          // For array fields like contentPanels, clear their values
           clearedData[key] = clearedData[key].map((item: any) => ({
             ...item,
             value: "",
@@ -55,14 +53,17 @@ export function VisualBuilder({
         }
       })
 
-      // Clear customFields
       clearedData.customFields = []
-
       setFormData(clearedData)
     }
 
     onExampleLoaded()
   }
+
+  // 👉 Run on page load
+  useEffect(() => {
+    handleClearForm()
+  }, [])
 
   return (
     <div className="space-y-6">
