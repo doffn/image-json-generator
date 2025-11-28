@@ -1,4 +1,3 @@
-
 #⭐ Json Image Generator
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
@@ -62,25 +61,22 @@ npm run dev
 ```
 image-json-generator/
 │
-├── src/                # source code  
-│   ├── components/     # UI components (if React)  
-│   └── utils/          # helper functions  
+├── app/                # source code  
+│   ├── api/     # main api code
 │
-├── public/             # static files / assets  
-│   └── images/         # image assets  
+├── components/            
 │
-├── docs/               # documentation, screenshots, demos  
-│   └── screenshots/  
+├── lib/               # documentation, screenshots, demos  
 │
-├── tests/              # optional tests  
+├── public/              # public files
 │
-├── README.md  
-├── LICENSE  
-├── package.json or requirements.txt  
+├── styles/              #INclude styles
+│
+├── README.md   
+├── package.json
 └── .gitignore  
 ```
 
-> ⚠️ Replace this structure with the actual file/folder layout from your repo.
 
 ---
 
@@ -90,11 +86,9 @@ image-json-generator/
 
 ### UI Preview
 
-![Screenshot 1](docs/screenshots/screen1.png)
+![Screenshot](public/image demo.png)
 
-### GIF Demo
 
-![Demo GIF](docs/screenshots/demo.gif)
 
 ---
 
