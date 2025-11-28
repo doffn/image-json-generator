@@ -1,30 +1,132 @@
-# Image generation code
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+#⭐ Json Image Generator
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/doffns-projects/v0-image-generation-code)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/lZkPh6tQ0Wx)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-## Overview
+A lightweight tool designed to **simplify and speed up the creation of Image JSON objects**, especially for developers working with APIs, UIs, or automation workflows.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+---
 
-## Deployment
+## 🚀 Features
 
-Your project is live at:
+- Generate clean and ready-to-use Image JSON objects  
+- Auto-formatting with proper keys  
+- Copy-to-clipboard support  
+- Fast, simple UI for JSON creation  
+- Minimalistic and modern design
 
-**[https://vercel.com/doffns-projects/v0-image-generation-code](https://vercel.com/doffns-projects/v0-image-generation-code)**
+---
 
-## Build your app
+## 📦 Installation
 
-Continue building your app on:
+### Clone the repository  
+```bash
+git clone https://github.com/doffn/image-json-generator.git
+cd image-json-generator
+````
 
-**[https://v0.app/chat/lZkPh6tQ0Wx](https://v0.app/chat/lZkPh6tQ0Wx)**
+### Install dependencies
 
-## How It Works
+*(Modify according to your stack — e.g. Node.js, Python, etc.)*
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+If using **Node.js / React**:
+
+```bash
+npm install
+```
+
+
+---
+
+## 🛠 Usage
+
+### Run development server
+
+```bash
+npm run dev
+```
+
+
+### Generate Image JSON
+
+1. Fill in the form (image URL, alt text, optional params)
+2. Click **Generate JSON**
+3. Copy or download the JSON output
+
+---
+
+## 📁 Project Structure
+
+```
+image-json-generator/
+│
+├── src/                # source code  
+│   ├── components/     # UI components (if React)  
+│   └── utils/          # helper functions  
+│
+├── public/             # static files / assets  
+│   └── images/         # image assets  
+│
+├── docs/               # documentation, screenshots, demos  
+│   └── screenshots/  
+│
+├── tests/              # optional tests  
+│
+├── README.md  
+├── LICENSE  
+├── package.json or requirements.txt  
+└── .gitignore  
+```
+
+> ⚠️ Replace this structure with the actual file/folder layout from your repo.
+
+---
+
+## 📸 Screenshots & Demo
+
+*(Insert screenshot and GIF links here once available)*
+
+### UI Preview
+
+![Screenshot 1](docs/screenshots/screen1.png)
+
+### GIF Demo
+
+![Demo GIF](docs/screenshots/demo.gif)
+
+---
+
+## 🧪 Running Tests
+
+*(If you have tests configured)*
+
+```bash
+npm test
+```
+
+or
+
+```bash
+pytest
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See `LICENSE` for more details.
+
+---
+
+## 🙌 Contributing
+
+Pull requests are welcome! Please open an issue first for major changes.
+
+## ⭐ Support
+
+If this project helped you, please give it a ⭐ on GitHub!
+
+
+
