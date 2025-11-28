@@ -14,15 +14,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
+        url: "https://github.com/doffn/doffneri/blob/main/staticfiles/fevi.ico?raw=true",
         type: "image/svg+xml",
       },
     ],
