@@ -61,9 +61,9 @@ export function VisualBuilder({
   }
 
   // 👉 Run on page load
-  useEffect(() => {
-    handleClearForm()
-  }, [])
+useEffect(() => {
+  handleClearForm()
+    }, [activeCategory])
 
   return (
     <div className="space-y-6">
