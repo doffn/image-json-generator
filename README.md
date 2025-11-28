@@ -82,11 +82,7 @@ image-json-generator/
 
 ## 📸 Screenshots & Demo
 
-*(Insert screenshot and GIF links here once available)*
-
-### UI Preview
-
-![Screenshot](public/image demo.png)
+![Screenshot](https://github.com/doffn/image-json-generator/blob/main/public/image%20demo.png)
 
 
 
