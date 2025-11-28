@@ -82,7 +82,7 @@ image-json-generator/
 
 ## 📸 Screenshots & Demo
 
-![Screenshot](https://github.com/doffn/image-json-generator/blob/main/public/image%20demo.png)
+![Screenshot](https://github.com/doffn/image-json-generator/blob/main/public/imagedemo.png)
 
 
 
